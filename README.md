@@ -1,0 +1,56 @@
+# WhatsUpDoc
+
+#### By Scott Bergler
+
+## Table of contents
+
+**[Description](#description)**<br>
+**[Resources](#resources)**<br>
+**[Installation Instructions](#setup-and-installation)**<br>
+**[Known Bugs](#known-bugs)**<br>
+**[Support](#support-and-contact-details)**<br>
+**[Technologies Used](#technologies-used)**<br>
+**[License](#license)**<br>
+
+## Description
+
+
+## Setup and Installation
+Clone the repository from [GitHub](https://github.com/skillitzimberg/WhatsUpDoc).  
+
+See the [ABOUT TEMPLATE JS](./ABOUTTEMPLATE.md) for details on what was used to create the project and how to set up your environment to use it and build on it.
+
+
+Once you have made sure you have installed all the necessary tools use your command line/terminal to 'cd' into the directory.
+Run the command:
+```
+npm install
+```
+
+Run the command:
+```
+npm run start
+```
+Your default browser should open a new window or tab with the website/app ready to use.  
+
+
+## Resources
+[ABOUT TEMPLATE JS](./ABOUTTEMPLATE.md): This project was instantiated using a template. ABOUTTEMPLATE is a run-down on what this template includes, why it's included, and how to use it.
+
+[PROJECT PLANNING](./PLANNING.md): Outlines planning criteria, use cases, specifications, notes, and errata.
+
+## Known Bugs
+
+## Support and contact details
+Scott Bergler :: commandinghands@gmail.com
+
+## Technologies Used
+HTML, Bootstrap, CSS, JavaScript, jQuery, Json, Node Package Manager, Babel transpiler, ES Lint, Jasmine, Karma, BetterDoctor API.  
+
+For a full list of dependencies, plugins, and scripts see [package.json](./package.json).
+
+### License
+
+Licensed under the MIT license.
+
+Copyright (c) 2018 ** Scott Bergler **
