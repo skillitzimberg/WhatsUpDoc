@@ -3,12 +3,11 @@
 ## Purpose
 To create a website where users may enter a medical issue (ie: “sore throat”, "rash", etc.) into a form, submit it, and receive a list of doctors in your city (Portland or Seattle depending on where you are) who can treat their medical issue.
 
-## Use Cases
-- [ ] A user should be able to enter a medical issue to receive a list of doctors in the Portland area that fit the search query.
-- [ ] A user should be able to to enter a name to receive a list of doctors in the Portland area that fit the search query.
-- [ ] If the query response includes any doctors, the following information should be included about each doctor: first name, last name, address, phone number, website and whether or not the doctor is accepting new patients (the API provides this data).
-- [ ] If the API call results in an error (any message not a 200 OK), the application should return a notification that states what the error is.
-- [ ] If the query response doesn't include any doctors (for instance, if no doctors meet the search criteria), the application should return a notification that states that no doctors meet the criteria. (This is not an error so it should be handled separately from any errors.)
+## Setup Instructions
+- [ ] Place your token in an .env file at the top level of your directory. (For grading purposes, name your API key variable exports.apiKey in .env. Keep spelling and capitalization identical, as it considerably speeds up the grading process.)  
+- [ ] Include .env in .gitignore.  
+- [ ] Use at least two JavaScript files: One to receive form input and another to make an API request and display results.  
+- [ ] This example assumes your API Key is stored in an apiKey variable, as described in this lesson. In order to make your applications quick to grade, please follow the example exactly and do not rename your apiKey variable to something different.  
 
 ## Assignment Objectives
 - [ ] Does the application correctly use webpack?
@@ -22,18 +21,39 @@ To create a website where users may enter a medical issue (ie: “sore throat”
 - [ ] Is the app in a presentable, portfolio-quality state?
 - [ ] Is required functionality in place by the Friday deadline?
 
+## Use Cases
+- [ ] A user should be able to enter a medical issue to receive a list of doctors in the Portland area that fit the search query.
+- [ ] A user should be able to to enter a name to receive a list of doctors in the Portland area that fit the search query.
+- [ ] If the query response includes any doctors, the following information should be included about each doctor: first name, last name, address, phone number, website and whether or not the doctor is accepting new patients (the API provides this data).
+- [ ] If the API call results in an error (any message not a 200 OK), the application should return a notification that states what the error is.
+- [ ] If the query response doesn't include any doctors (for instance, if no doctors meet the search criteria), the application should return a notification that states that no doctors meet the criteria. (This is not an error so it should be handled separately from any errors.)
+
+
+
+## Specifications:
+
+* Spec : Get the user's medical issue:
+- [ ] **Expect:**  
+Input: asthma;  
+Output: list of doctors treating asthma;
+
+* Spec : Get the user's chosen doctor:
+- [ ] **Expect:**  
+Input: some input;  
+Output: some output;
+
+* Spec : Make an API call to BetterDoctor:
+- [ ] **Expect:**  
+Input: API key;  
+Output: json object containing applicable data;
+
+
 ## Planning
 
 1. Configuration/dependencies
   * This should include ALL dependencies.
   * It should also include WHERE they are defined and used in the project
   * It could include a short description of what each does for you
-
-2. Specifications:
-  * Spec 1: Do a thing:
-- [ ] **Expect:**  
-Input: some input;  
-Output: some output;
 
 3. Integration
   * Initial routes or index pages with all dependencies in Controller/index.html head
