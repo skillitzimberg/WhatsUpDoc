@@ -2,7 +2,7 @@
   "name": "WhatsUpDoc",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
     "start": "npm run build; webpack-dev-server --open",
@@ -10,7 +10,7 @@
     "test": "karma start karma.conf.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Scott Bergler",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
