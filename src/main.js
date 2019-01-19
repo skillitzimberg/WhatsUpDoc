@@ -23,13 +23,16 @@ $(document).ready(function() {
     doctorPromise.then(function(response) {
       const body = JSON.parse(response);
 
+      if(body.data.length === 0) {
+        $('#showResults').append('No doctors were found matching your search.');
+      }
+
       let doctors = [];
       for(let i = 0; i < body.data.length; i++) {
         doctors.push(body.data[i]);
       }
 
       doctors.forEach(function(doctor) {
-        console.log(doctor);
 
         let street2;
         if(!doctor.practices[0].visit_address.street2) {
