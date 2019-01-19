@@ -28,26 +28,13 @@ To create a website where users may enter a medical issue (ie: “sore throat”
 - [x] If the query response doesn't include any doctors (for instance, if no doctors meet the search criteria), the application should return a notification that states that no doctors meet the criteria. (This is not an error so it should be handled separately from any errors.)
 
 ## Specifications:
-
-* Spec : Get the user's medical issue:
-- [x] **Expect:**  
-Input: asthma;  
-Output: list of doctors treating asthma;
-
-* Spec : Get the user's chosen doctor:
-- [x] **Expect:**  
-Input: some input;  
-Output: some output;
-
-* Spec : Make an API call to BetterDoctor:
-- [x] **Expect:**  
-Input: API call;  
-Output: json object containing applicable data;
-
-* Spec : Display returned list of doctors:
-- [x] **Expect:**  
-Input: parsed json;  
-Output: list of doctors, their phone number, address, website, and state of accepting new patients;
+| Behavior | Input | Output |
+|----------|-------|--------|
+| Get the user's medical issue | asthma | list of doctors treating asthma
+| Get doctor's first name | Paul | Paul
+| Get doctor's last name | Garcia | Garcia
+| Make an API call to BetterDoctor | Specific input | Specific output
+| Display returned list of doctors | parsed json | list of doctors, their phone number, address, website, and state of accepting new patients
 
 ## Planning Guidelines (for my own reference)
 
