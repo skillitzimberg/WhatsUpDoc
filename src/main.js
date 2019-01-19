@@ -8,9 +8,9 @@ $(document).ready(function() {
   $('#search').submit(function(event) {
     event.preventDefault();
 
-    let searchTerm = $('#malady').val();
-    let first_name = $('#first_name').val();
-    let last_name = $('#last_name').val();
+    const searchTerm = $('#malady').val();
+    const first_name = $('#first_name').val();
+    const last_name = $('#last_name').val();
 
     $('#malady').val('');
     $('#first_name').val('');
@@ -27,7 +27,9 @@ $(document).ready(function() {
         $('#showResults').append('No doctors were found matching your search.');
       }
 
-      let doctors = [];
+      console.log(body.data);
+
+      const doctors = [];
       for(let i = 0; i < body.data.length; i++) {
         doctors.push(body.data[i]);
       }
