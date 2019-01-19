@@ -1,7 +1,7 @@
 # WhatsUpDoc
 
 ### Author
-### Scott Bergler  
+Scott Bergler  
 
 ## Table of contents
 **[Description](#description)**<br>
@@ -48,20 +48,36 @@ Your default browser should open a new window or tab with the website/app ready 
 Scott Bergler :: commandinghands@gmail.com
 
 ## Technologies Used
-Babel transpiler  
-BetterDoctor API  
-Bootstrap  
-CSS  
-ES Lint  
-HTML  
-JavaScript  
-Jasmine  
-Json  
-jQuery  
-Karma  
-Node Package Manager  
+(This wonderful table was pilfered from [Tanvi Garg](https://github.com/TanviCodeLife) and modestly edited for my own sensibilities.)
 
-For a full list of dependencies, plugins, and scripts see [package.json](./package.json).
+For versions and a full list of dependencies, plugins, and scripts see the "devDependencies" section in [package.json](./package.json).  
+
+| Dependency | Description |
+| --- | --- |
+| babel-core | Babel compiler core |
+| babel-loaded | Babel loader for webpack |
+| babel-present-es2015 | Specifies how Babel can convert ES6 to ES5 |
+| clean-webpack-plugin | Clean your build folder(s) before building |
+| css-loader | Interprets `@import` and `url()` like `import/require()` and resolves them |
+| dotenv-webpack | imports information like API keys from .env to src/anyfile.js |
+| eslint | Identifies and reports on patterns found in Javscript code |
+| eslint-loader | ESLint loader for webpack |
+| html-webpack-plugin | Simplifies creation of HTML files to serve webpack bundles |
+| jasmine | Allows Jasmine specs to be run |
+| jasmine-core | JavaScript BDD testing framework |
+| karma | Allows the execution of JavaScript code in multiple *real* browsers |
+| karma-chrome-launcher | Launcher for Google Chrome, Google Chrome Canary, and Google Chromium |
+| karma-cli | Use Karma from the command line |
+| karma-jasmine | Plugin - adapter for Jasmine testing framework |
+| karma-jasmine-html-reporter | Dynamically shows test results at debug.html page |
+| karma-jquery | Plugin - adapter for jQuery framework |
+| karma-webpack | Use webpack to preprocess files in Karma |
+| style-loader | adds CSS to the DOM by injecting a `<style>` tag |
+| uglifyjs-webpack-plugin | Minifies JavaScript |
+| webpack | A module bundler used to bundle JavaScript files and additional resources   *Note - Remove carrot sign ^ in version number if webpack issues occur* |
+| webpack-cli | Use webpack from command line |
+| webpack-dev-server | Provides live reloading during development |
+| css-loader and style-loader | renders images in DOM when `<img>` tag is used |
 
 ## License
 Licensed under the MIT license.
