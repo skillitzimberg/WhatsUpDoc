@@ -23,7 +23,6 @@ Clone the repository from [GitHub](https://github.com/skillitzimberg/WhatsUpDoc)
 
 See the [ABOUT TEMPLATE JS](./ABOUTTEMPLATE.md) for details on what was used to create the project and how to set up your environment to use it and build on it.
 
-
 Once you have made sure you have installed all the necessary tools use your command line/terminal to move into the directory:
 ```
 cd WhatsUpDoc/
@@ -32,7 +31,6 @@ Run the command:
 ```
 npm install
 ```
-
 Run the command:
 ```
 npm run start
@@ -50,18 +48,18 @@ Your default browser should open a new window or tab with the website/app ready 
 Scott Bergler :: commandinghands@gmail.com
 
 ## Technologies Used
-HTML  
+Babel transpiler  
+BetterDoctor API  
 Bootstrap  
 CSS  
-JavaScript  
-jQuery  
-Json  
-Node Package Manager  
-Babel transpiler  
 ES Lint  
+HTML  
+JavaScript  
 Jasmine  
+Json  
+jQuery  
 Karma  
-BetterDoctor API  
+Node Package Manager  
 
 For a full list of dependencies, plugins, and scripts see [package.json](./package.json).
 
