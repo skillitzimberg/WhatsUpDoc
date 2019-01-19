@@ -671,4 +671,4 @@ HTML, CSS, Json, dotnet.
 
 Licensed under the MIT license.
 
-Copyright (c) 2018 ** Scott Bergler **
+Copyright (c) 2019 ** Scott Bergler **

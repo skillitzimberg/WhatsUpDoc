@@ -83,4 +83,4 @@ For versions and a full list of dependencies, plugins, and scripts see the "devD
 Licensed under the MIT license.
 
 ## Copyright
-Copyright (c) 2018 ** Scott Bergler **
+Copyright (c) 2019 ** Scott Bergler **
