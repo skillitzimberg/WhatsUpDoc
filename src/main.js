@@ -19,10 +19,10 @@ $(document).ready(function() {
 
       let doctors = [];
       for(let i = 0; i < body.data.length; i++) {
-        arrayOfDoctors.push(body.data[i]);
+        doctors.push(body.data[i]);
       }
 
-      arrayOfDoctors.forEach(function(doctor) {
+      doctors.forEach(function(doctor) {
         console.log(doctor);
 
         let street2;
