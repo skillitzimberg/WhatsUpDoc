@@ -9,10 +9,16 @@ $(document).ready(function() {
     event.preventDefault();
 
     let searchTerm = $('#malady').val();
+    let first_name = $('#first_name').val();
+    let last_name = $('#last_name').val();
+
+    $('#malady').val('');
+    $('#first_name').val('');
+    $('#last_name').val('');
     $('#showResults').empty();
 
     const findDoctors = new DoctorSearch();
-    const doctorPromise = findDoctors.getDoctors(searchTerm);
+    const doctorPromise = findDoctors.getDoctors(searchTerm, first_name, last_name);
 
     doctorPromise.then(function(response) {
       const body = JSON.parse(response);
