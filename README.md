@@ -19,10 +19,10 @@ This app allow users to find doctors in Portland that deal with their specific c
 The user can also search for a particular doctor by first and/or last name.
 
 ## Setup and Installation
-Fork the repository from [GitHub](https://github.com/skillitzimberg/WhatsUpDoc)
+Fork the repository from [GitHub](https://github.com/skillitzimberg/WhatsUpDoc).  
 Clone your forked repository.  
 
-Once you have made sure you have installed all the necessary tools use your command line/terminal to move into the directory:
+Once you have made sure you have installed all the necessary tools use your command line/terminal to navigate into the directory:
 ```
 cd WhatsUpDoc/
 ```
@@ -53,9 +53,9 @@ npm run start
 Your default browser should open a new window or tab with the website/app ready to use.  
 
 ## Resources
-[ABOUT TEMPLATE JS](./ABOUTTEMPLATE.md): This project was instantiated using a template. ABOUTTEMPLATE is a run-down on what this template includes, why it's included, and how to use it.
-
 [PROJECT PLANNING](./PLANNING.md): Outlines planning criteria, use cases, specifications, notes, and errata.
+
+[ABOUT TEMPLATE JS](./ABOUTTEMPLATE.md): This project was instantiated using a template. ABOUTTEMPLATE is a run-down on what this template includes, why it's included, and how to use it.
 
 ## Known Bugs
 
@@ -63,7 +63,7 @@ Your default browser should open a new window or tab with the website/app ready 
 Scott Bergler :: commandinghands@gmail.com
 
 ## Technologies Used
-(This wonderful table was pilfered from [Tanvi Garg](https://github.com/TanviCodeLife) and modestly edited for my own sensibilities.)
+(This wonderful table was lovingly pilfered from [Tanvi Garg](https://github.com/TanviCodeLife) and modestly edited for my own sensibilities.)
 
 For versions and a full list of dependencies, plugins, and scripts see the "devDependencies" section in [package.json](./package.json).  
 
