@@ -1,9 +1,9 @@
 # WhatsUpDoc
 
-#### By Scott Bergler
+### Author
+### Scott Bergler  
 
 ## Table of contents
-
 **[Description](#description)**<br>
 **[Resources](#resources)**<br>
 **[Installation Instructions](#setup-and-installation)**<br>
