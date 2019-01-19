@@ -27,8 +27,6 @@ $(document).ready(function() {
         $('#showResults').append('No doctors were found matching your search.');
       }
 
-      console.log(body.data);
-
       const doctors = [];
       for(let i = 0; i < body.data.length; i++) {
         doctors.push(body.data[i]);
