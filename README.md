@@ -22,10 +22,13 @@ The user can also search for a particular doctor by first and/or last name.
 Fork the repository from [GitHub](https://github.com/skillitzimberg/WhatsUpDoc).  
 Clone your forked repository.  
 
-Once you have made sure you have installed all the necessary tools use your command line/terminal to navigate into the directory:
+Use your preferred command line/terminal to navigate into the directory:
 ```
 cd WhatsUpDoc/
 ```
+
+Open the project in a text editor like Atom.
+
 #### Setup for BetterDoctor API usage
 Go to [BetterDoctor](https://developer.betterdoctor.com/).
 Set up an account for yourself.  
@@ -42,6 +45,10 @@ To use your key precede your API key name with "process.env." in the DoctorSearc
 let url = `https://api.betterdoctor.com/2016-03-01/doctors?first_name=${first_name}&last_name=${last_name}&query=${malady}&location=45.5122%2C-122.6587%2C100&user_location=45.5122%2C-122.6587&sort=last-name-asc&skip=0&limit=10&user_key=${process.env.API_KEY}`;
 ```
 #### Run the application
+See [ABOUT TEMPLATE JS](./ABOUTTEMPLATE.md) for details on installing Node, Node Package Manager (npm), if you don't already have them on your machine.
+
+Once those are in place . . .
+
 In the project root directory run the command:
 ```
 npm install
